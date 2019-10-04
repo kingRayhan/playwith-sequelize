@@ -1,0 +1,35 @@
+// One to one
+// One to Many
+// Many to One
+// Many to Many
+
+
+
+
+model Permissions{
+    
+}
+
+model User{
+    id
+    name
+    email
+    password
+    articles Blog[]
+}
+
+model Blog{
+    id
+    title
+    body
+    author: User
+    categories: Category[]
+}
+
+model Category{
+    id
+    name
+    slug
+    articles Blog[]
+}
+

@@ -1,0 +1,21 @@
+{
+    "name": "orm",
+    "version": "1.0.0",
+    "description": "",
+    "main": "index.js",
+    "scripts": {
+        "dev": "nodemon index",
+        "ndb": "ndb ."
+    },
+    "keywords": [],
+    "author": "",
+    "license": "ISC",
+    "dependencies": {
+        "@types/sequelize": "^4.28.5",
+        "mysql2": "^1.7.0",
+        "sequelize": "^5.19.2"
+    },
+    "devDependencies": {
+        "ndb": "^1.1.5"
+    }
+}
